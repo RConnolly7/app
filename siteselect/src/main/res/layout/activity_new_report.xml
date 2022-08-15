@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewReport">
+
+    <Button
+        android:id="@+id/BTNSend2"
+        android:layout_width="149dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="242dp"
+        android:layout_marginEnd="16dp"
+        android:background="#3F51B5"
+        android:text="Send Report"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout5" />
+
+    <TextView
+        android:id="@+id/banner3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#3F51B5"
+        android:text="Make Report"
+        android:textAlignment="center"
+        android:textColor="#FDFDFD"
+        android:textSize="20sp"
+        android:typeface="normal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-1dp" />
+
+    <ImageButton
+        android:id="@+id/btnReturn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#3949AB"
+        android:tint="#FFFFFF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout5"
+        android:layout_width="409dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner3">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/constr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="viewStart" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/BTNImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout5"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <TextView
+        android:id="@+id/lblImageName"
+        android:layout_width="6dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/BTNImage"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

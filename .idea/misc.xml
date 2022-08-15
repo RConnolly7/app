@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Documents two/Stlproject/app/Login/src/main/res/layout/activity_login.xml" value="0.358695652173913" />
+        <entry key="..\:/Documents two/Stlproject/app/LoginModule/src/main/res/layout/activity_loginModule.xml" value="0.33" />
+        <entry key="..\:/Documents two/Stlproject/app/Loginmodule/src/main/res/layout/activity_loginModule.xml" value="0.35507246376811596" />
+        <entry key="..\:/Documents two/Stlproject/app/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/activity_delete.xml" value="0.358695652173913" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/activity_login.xml" value="0.35688405797101447" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/activity_mainpage.xml" value="0.35260416666666666" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/activity_new_report.xml" value="0.358695652173913" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/activity_new_request.xml" value="0.35688405797101447" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/activity_org_select.xml" value="0.35688405797101447" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/activity_report_conv.xml" value="0.358695652173913" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/activity_request_supplies.xml" value="0.358695652173913" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/activity_select_problem.xml" value="0.358695652173913" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/activity_select_requestview.xml" value="0.358695652173913" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/activity_sign_in.xml" value="0.35688405797101447" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/activity_siteselect.xml" value="0.35507246376811596" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/activity_siteselecy.xml" value="0.358695652173913" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/content_delete.xml" value="0.35688405797101447" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/content_request_supplies.xml" value="0.358695652173913" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/content_siteselect.xml" value="0.35507246376811596" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/fragment_first.xml" value="0.358695652173913" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/fragment_first2.xml" value="0.35688405797101447" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/fragment_second.xml" value="0.358695652173913" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/fragment_second2.xml" value="0.35688405797101447" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/provider_paths.xml" value="0.35688405797101447" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/siteitem.xml" value="0.35688405797101447" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/text_row_item.xml" value="0.18802083333333333" />
+        <entry key="..\:/Documents two/Stlproject/app/siteselect/src/main/res/layout/textinstanceimport.xml" value="0.35507246376811596" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

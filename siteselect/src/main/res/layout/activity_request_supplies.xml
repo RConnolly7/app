@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequestSupplies">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:theme="@style/Theme.Sitetrack.AppBarOverlay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight=".50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/light_blue_900"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/Theme.Sitetrack.PopupOverlay" />
+
+    <TextView
+        android:id="@+id/banner2"
+        android:layout_width="415dp"
+        android:layout_height="50dp"
+        android:background="#3F51B5"
+        android:text="Supply Request"
+        android:textAlignment="center"
+        android:textColor="#FDFDFD"
+        android:textSize="20sp"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnReturnSR"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="-50dp"
+        android:backgroundTint="#3949AB"
+        android:tint="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <Button
+        android:id="@+id/btnsignin"
+        android:layout_width="149dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="44dp"
+        android:background="#3F51B5"
+        android:text="Send Request"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="30dp"
+        android:text="Send Request"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerView">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="410dp"
+            android:layout_height="match_parent"
+            android:background="#DCDCDC"
+            android:hint="Send message"
+            android:textColorHint="#616161" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

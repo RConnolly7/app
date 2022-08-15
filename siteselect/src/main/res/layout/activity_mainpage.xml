@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/fullscreenBackgroundColor"
+    android:theme="@style/ThemeOverlay.Sitetrack.FullscreenContainer"
+    tools:context=".Mainpage">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:textColor="?attr/fullscreenTextColor"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/backgroundFramelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:fitsSystemWindows="true">
+
+
+        <Button
+            android:id="@+id/btnReport"
+            android:layout_width="185dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="72dp"
+            android:text="Report a problem"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnmakerequest" />
+
+        <Button
+            android:id="@+id/Viewreports"
+            android:layout_width="185dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="20dp"
+            android:text="View Reports"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnReport" />
+
+        <Button
+            android:id="@+id/viewrequests"
+            android:layout_width="185dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="20dp"
+            android:text="View Requests"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Viewreports" />
+
+        <Button
+            android:id="@+id/btnSignOut"
+            android:layout_width="185dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="604dp"
+            android:text="Sign out"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnChangeSite"
+            android:layout_width="185dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="512dp"
+            android:text="Change Site"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnmakerequest"
+            android:layout_width="185dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="192dp"
+            android:text="Request suplies"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/bannerSite2"
+            android:layout_width="415dp"
+            android:layout_height="41dp"
+            android:background="#3F51B5"
+            android:text="Site Track"
+            android:textAlignment="center"
+            android:textColor="#FDFDFD"
+            android:textSize="20sp"
+            android:typeface="normal"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="-2dp" />
+
+        <TextView
+            android:id="@+id/lblSite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

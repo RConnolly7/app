@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectProblem">
+
+    <Button
+        android:id="@+id/BTNnew5"
+        android:layout_width="149dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="4dp"
+        android:background="#3F51B5"
+        android:text="Make New Report"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerView2" />
+
+    <Button
+        android:id="@+id/BTNSelect5"
+        android:layout_width="149dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="15dp"
+        android:background="#3F51B5"
+        android:text="Select Report"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerView2" />
+
+    <TextView
+        android:id="@+id/banner6"
+        android:layout_width="415dp"
+        android:layout_height="50dp"
+        android:background="#3F51B5"
+        android:text="Problem Select"
+        android:textAlignment="center"
+        android:textColor="#FDFDFD"
+        android:textSize="20sp"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnReturnPS"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#3949AB"
+        android:tint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView2"
+        android:layout_width="match_parent"
+        android:layout_height="333sp"
+        app:layout_constraintTop_toBottomOf="@+id/banner6"
+        tools:layout_editor_absoluteX="4dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

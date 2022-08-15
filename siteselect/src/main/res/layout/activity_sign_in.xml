@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Signinlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtuser"
+        android:layout_width="310dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="72dp"
+        android:hint="Username"
+        android:textColorHint="#757575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bannerSn"
+        app:layout_marginBaseline="3px" />
+
+    <TextView
+        android:id="@+id/bannerSn"
+        android:layout_width="415dp"
+        android:layout_height="41dp"
+        android:background="#3F51B5"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:textColor="#FDFDFD"
+        android:textSize="20sp"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnsignin"
+        android:layout_width="149dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="237dp"
+        android:layout_marginTop="229dp"
+        android:text="Sign in"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bannerSn" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="310dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtuser" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
